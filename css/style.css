@@ -8,12 +8,22 @@
 @import url('fuentes.css');
 @import url('colores.css');
 
+/*** ASIGNACIONES GLOBALES ***/
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: 'Omnes ExtraLight';
     text-decoration: none;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+h1{
+    font-family: 'Co Text Regular';
 }
 
 /***** CABECERA *****/
@@ -23,6 +33,7 @@ header{
     justify-content: space-around;
 }
 
+/* NAVBAR */
 nav > ul > li{
     float: left;
 }
@@ -48,4 +59,57 @@ nav li > a:hover{
 
 .activo:hover{
     border-bottom-color: var(--contraste);
+}
+
+/***** FOOTER *****/
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/* SECTION 1 */
+footer > section:first-child{
+    background-color: var(--contraste);
+    padding: 40px;
+}
+
+footer > section:first-child > h1{
+    text-align: center;
+    color: var(--analogo1);
+}
+
+footer > section:first-child > article{
+    display: flex;
+    justify-content: center;
+}
+
+footer > section:first-child > article > div{
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* SECTION 2 */
+footer > section:last-child{
+    background-color: var(--analogo1);
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > section:last-child,
+footer > section:last-child a{
+    color: white;
+}
+
+footer > section:last-child > span:first-child > a{
+    color: var(--contraste);
+    font-weight: bold;
+}
+
+footer > section:last-child a:hover,
+footer > section:last-child > span:first-child > a:hover{
+    color: rgb(211, 211, 211);
 }
