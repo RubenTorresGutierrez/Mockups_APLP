@@ -1,0 +1,57 @@
+/*  Pablo Ceballos
+    Ángel Manuel Fernández
+    Juan José Carrasco
+    Rubén Torres
+*/
+
+/*** FUENTES ***/
+@font-face {
+    font-family: 'Omnes ExtraLight';
+    src: url(../fonts/omnesextralight.otf);
+}
+@font-face {
+    font-family: 'Co Text Regular';
+    src: url(../fonts/cotextregular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Omnes ExtraLight';
+    text-decoration: none;
+}
+
+/***** CABECERA *****/
+header{
+    background-color: #4BABFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li{
+    float: left;
+}
+
+nav li > a{
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    color: white;
+    transition: all 500ms ease;
+    border-bottom: 3px solid #4BABFF;
+}
+
+nav li > a:hover{
+    background-color: #3867E8;
+    transition: all 500ms ease;
+    border-bottom-color: #3867E8;
+}
+
+.activo{
+    border-bottom-color: #FF9F4B;
+}
+
+.activo:hover{
+    border-bottom-color: #FF9F4B;
+}
