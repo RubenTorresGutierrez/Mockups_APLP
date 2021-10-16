@@ -4,15 +4,9 @@
     Rubén Torres
 */
 
-/*** FUENTES ***/
-@font-face {
-    font-family: 'Omnes ExtraLight';
-    src: url(../fonts/omnesextralight.otf);
-}
-@font-face {
-    font-family: 'Co Text Regular';
-    src: url(../fonts/cotextregular.ttf);
-}
+/*** IMPORTACIONES ***/
+@import url('fuentes.css');
+@import url('colores.css');
 
 *{
     margin: 0;
@@ -24,7 +18,7 @@
 
 /***** CABECERA *****/
 header{
-    background-color: #4BABFF;
+    background-color: var(--principal);
     display: flex;
     justify-content: space-around;
 }
@@ -39,19 +33,19 @@ nav li > a{
     font-weight: bold;
     color: white;
     transition: all 500ms ease;
-    border-bottom: 3px solid #4BABFF;
+    border-bottom: 3px solid var(--principal);
 }
 
 nav li > a:hover{
-    background-color: #3867E8;
+    background-color: var(--analogo1);
     transition: all 500ms ease;
-    border-bottom-color: #3867E8;
+    border-bottom-color: var(--analogo1);
 }
 
 .activo{
-    border-bottom-color: #FF9F4B;
+    border-bottom-color: var(--contraste);
 }
 
 .activo:hover{
-    border-bottom-color: #FF9F4B;
+    border-bottom-color: var(--contraste);
 }
