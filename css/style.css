@@ -61,6 +61,12 @@ nav li > a:hover{
     border-bottom-color: var(--contraste);
 }
 
+/***** MAIN *****/
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
 /***** FOOTER *****/
 footer{
     position: absolute;
