@@ -8,45 +8,55 @@
 @import url('fuentes.css');
 @import url('colores.css');
 
-/*Estilo formulario*/
-
+/***** FORMULARIO *****/
 h2{
   text-align: center;
 }
+
 hr{
   margin: auto;
-  width: 30%;
+  width: 60%;
 }
+
 h2, legend{
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: bold;
 }
+
 input{
   margin: 2px 0 2px 0;
 }
+
 #espacionombre{
   margin-right: 75px;
 }
+
 #apellidos{
   width: 180px;
 }
+
 #espaciomail{
   margin-right: 85px;
 }
+
 #direccion{
   width: 300px;
 }
+
 #ciudad{
   margin-left: 65px;
   margin-right: 85px;
 }
+
 input[type='number']{
   margin-bottom: 10px;
 }
+
 #lineabottom{
   margin-bottom: 20px;
 }
+
 #enviar{
   margin-left: 42%;
   width: 200px;

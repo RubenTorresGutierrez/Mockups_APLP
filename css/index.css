@@ -9,10 +9,6 @@
 @import url('colores.css');
 
 /***** MAIN *****/
-.container > article{
-    padding: 20px;
-}
-
 .container > article > img{
     width: 100%;
 }

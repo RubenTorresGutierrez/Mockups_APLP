@@ -94,6 +94,10 @@ nav li > a:hover{
     padding-bottom: 258px;
 }
 
+.container > article{
+    padding: 20px;
+}
+
 /***** FOOTER *****/
 footer{
     position: absolute;
