@@ -20,22 +20,47 @@
 body{
     position: relative;
     min-height: 100vh;
+    background-color: white;
+}
+
+h1, h2{
+    font-family: 'Co Text Regular';
 }
 
 h1{
-    font-family: 'Co Text Regular';
+    font-size: 30px;
+    color: var(--analogo1);
+}
+
+h2{
+    font-size: 25px;
+    color: var(--analogo2);
+}
+
+p{
+    text-align: justify;
 }
 
 /***** CABECERA *****/
 header{
     background-color: var(--principal);
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
+/* LOGO */
+header img{
+    width: 120px;
+    padding: 5px;
+}
+
 /* NAVBAR */
+
 nav > ul > li{
     float: left;
+    height: 100%;
 }
 
 nav li > a{
@@ -65,6 +90,8 @@ nav li > a:hover{
 .container{
     max-width: 1280px;
     margin: auto;
+    padding-top: 61px;
+    padding-bottom: 258px;
 }
 
 /***** FOOTER *****/

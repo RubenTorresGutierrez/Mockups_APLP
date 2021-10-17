@@ -7,3 +7,42 @@
 /*** IMPORTACIONES ***/
 @import url('fuentes.css');
 @import url('colores.css');
+
+/***** MAIN *****/
+.container > article{
+    padding: 20px;
+}
+
+.container > article > img{
+    width: 100%;
+}
+
+.titulos, p{
+    margin: 20px 0;
+}
+
+/*** ANUNCIANTES ***/
+#anunciantes{
+    overflow: hidden;
+    margin: 60px 0;
+}
+
+#anunciantes > h1{
+    text-align: center;
+}
+
+/* COLABORADOR */
+.colaborador{
+    width: 30%;
+    float: left;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.colaborador > h2{
+    text-align: center;
+}
+
+.colaborador > img{
+    width: 100%;
+}
