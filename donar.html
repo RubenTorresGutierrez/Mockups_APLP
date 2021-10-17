@@ -27,7 +27,71 @@
         </header>
         <main>
             <section class="container">
-                
+              <h2>¡Dona ahora!</h2>
+              <hr>
+              <form>
+                <fielset>
+                  <legend>Nombre</legend>
+                  <input type=text maxlength=30 name='nombre'/>
+                  <input type=text maxlength=60 id=apellidos name='apellidos'/>
+                  <br />
+                  <label for=nombre id=espacionombre>Nombre</label>
+                  <label for=apellidos>Apellidos</label>
+                </fieldset>
+                <fielset>
+                  <legend>Datos de contacto</legend>
+                  <input type=email maxlength=100 />
+                  <input type=text maxlength=9 />
+                  <br />
+                  <label for=nombre id=espaciomail>Correo</label>
+                  <label for=nombre>Teléfono</label>
+                </fieldset>
+                <fielset>
+                  <legend>Dirección</legend>
+                  <input type=text maxlength="120" name='direccion' id='direccion' />
+                  <br />
+                  <label for=direccion>Dirección</label>
+                  <br />
+                  <input type=text maxlength="50" />
+                  <input type=text maxlength="30" />
+                  <input type=text maxlength="20" />
+                  <br />
+                  <label for=codpostal>Población</label>
+                  <label for=codpostal id=ciudad>Ciudad</label>
+                  <label for=codpostal>País</label>
+                  <br />
+                  <input type=text maxlength="4" name=codpostal />
+                  <br />
+                  <label for=codpostal>Código Postal</label>
+                </fieldset>
+                <fielset>
+                  <legend>Método de pago</legend>
+                  <input type=number min="0.00" max="1000.00" step="1.00" value='0.00'>
+                  <br />
+                  <input type="radio" id="tarjeta" name="metodopago" />
+                  <label for="tarjeta">Tarjeta</label>
+                  <br />
+                  <input type="radio" id="tranferencia" name="metodopago" />
+                  <label for="tranferencia">Transferencia</label>
+                  <br />
+                  <input type="radio" id="paypal" name="metodopago" />
+                  <label for="paypal">PayPal</label>
+                  <br />
+                  <input type="radio" id="bizum" name="metodopago" />
+                  <label for="bizum">Bizum</label>
+                </fieldset>
+                <hr id=lineabottom>
+                <input type=checkbox id='politica' name=politica />
+                <label for="politica">Acepto la <a href="">Política de Privacidad</a></label>
+                <br>
+                <input type=checkbox id='edad' name=edad />
+                <label for="edad">Confirmo que soy mayor de 18 años</label>
+                <br />
+                <input type=checkbox id='notificacion' name=notificacion />
+                <label for="notificacion">Acepto recibir noticias e información sobre futuras donaciones</label>
+                <br />
+                <input type='submit' id='enviar' name='enviar' />
+              </form>
             </section>
         </main>
         <footer>
