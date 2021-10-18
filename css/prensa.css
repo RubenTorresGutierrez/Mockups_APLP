@@ -7,3 +7,56 @@
 /*** IMPORTACIONES ***/
 @import url('fuentes.css');
 @import url('colores.css');
+
+/****  	MAIN	****/
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+hr{
+	width: 60%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.imgpequena
+{
+	float: left;
+	margin-right: 5px;
+	width: 32px;
+}
+
+.imgrande
+{
+	width: 253px;
+}
+
+.titulos
+{
+	padding: 12px 0px 10px 0px;*/
+}
+
+.divnoticias
+{
+	width: 300px;
+	margin: auto;
+	margin: 0px 110px 30px 0px;
+	display: inline-grid;
+}
+
+p{
+	text-align: left;
+}
+
+h3{
+	word-spacing: 5px;
+	
+}
+
+.autorfechatema
+{
+	margin-top: 10px;
+	word-spacing: 82px;
+	color: gray;
+}
