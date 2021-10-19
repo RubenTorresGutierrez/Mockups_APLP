@@ -9,6 +9,10 @@
 @import url('colores.css');
 
 /*ordenado*/
+.container > article{
+  display: flex;
+  justify-content: center;
+}
 .ordenado{
     width: 30%;
     float: left;
@@ -21,6 +25,10 @@
 
 .ordenado > img{
     width: 100%;
+}
+#texto{
+  margin-left: 100px;
+  margin-top: 100px;
 }
 /*volver*/
 #volver{
